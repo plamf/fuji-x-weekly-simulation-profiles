@@ -27,11 +27,12 @@ At the moment I'm only going to provide Profiles for X-Trans IV sensors, as thes
 1. You'll need to create a master profile with X Raw Studio to use as a template. This is needed because we have to copy your camera model, serial number and some other fixed values to the profiles in order to make them work. You have to do this for every different camera model you're using.
 2. Find the profile you just created. On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`
 3. Copy the path of your master profile
-4. Open a command shell in the folder with your profiles of choice and run `python fx-templater.py "path/to/your/master/profile.FP1"`
-5. The converted profiles should appear in a subfolder called `converted`
-6. Copy the profiles into the same path where you got your master template from
-7. You can now delete the master template and start Fuji X Raw Studio. All the profiles should be there!
-8. **BONUS TIP**: If you want to know more about a certain recipe, open the `FP1` file in a text editor. I've included a link to https://fujixweekly.com/ in every file.
+4. Download the profiles you need from the releases page (https://github.com/plamf/fuji-x-weekly-simulation-profiles/releases) or just clone the repo
+5. Open a command shell in the folder with your profiles of choice and run `python fx-templater.py "path/to/your/master/profile.FP1"`
+6. The converted profiles should appear in a subfolder called `converted`
+7. Copy the profiles into the same path where you got your master template from
+8. You can now delete the master template and start Fuji X Raw Studio. All the profiles should be there!
+9. **BONUS TIP**: If you want to know more about a certain recipe, open the `FP1` file in a text editor. I've included a link to https://fujixweekly.com/ in every file.
 
 ## Additional resources
 The website I'm getting all these recipes from (consider donating to them!): https://fujixweekly.com/
