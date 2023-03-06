@@ -18,7 +18,7 @@ I'm not going to release the actual parser here, because I don't want people to 
 
 At the moment I'm only going to provide Profiles for X-Trans IV sensors, as these are the only ones I can test on my camera. While I could theoretically parse every single recipe for the other sensors, I don't feel comfortable releasing something I did not test.
 
-## Ok, how do I use these Profiles with Fuji X Raw Studio?
+## Ok, how do I use these Profiles with Fuji X Raw Studio on Windows?
 ### Prerequisites
 1. Python 3.10 (I recommend typing `python` in the command prompt and installing it from the windows store, otherwise install from here https://www.python.org/downloads/)
 2. Fuji X Raw Studio (https://fujifilm-x.com/de-at/support/download/software/x-raw-studio/)
