@@ -12,15 +12,15 @@ So I did what any Programmer would do: Instead of spending 5 hours to manually d
 
 ## Disclaimer
 Parsing text is awful. Parsing text that has been input by a human is torture.
-That's why I can't confirm that all the values of every recipe are 100% correct. I did, however, test every single one of the recipes I'm releasing here with my own Camera and Fuji X Raw Studio.
+That's why I can't confirm that all the values of every recipe are 100% correct. If the author provided ranges for values (like `0 to +1/3`), I always take the first value. I did, however, test every single one of the recipes I'm releasing here with my own Camera and Fuji X Raw Studio.
 
-I'm not going to release the actual parser here, because I don't want people to DDOS Fuji X Weekly with hundreds of requests. I'm just going to provide the templates which you'll have to convert with a parent-template of your own.
+I'm not going to release the actual parser here, because I don't want people to DDoS Fuji X Weekly with hundreds of requests. I'm just going to provide the templates, which you'll have to convert with a parent-template of your own.
 
-At the moment I'm only going to provide Profiles for X-Trans IV sensors, as these are the only ones I can test on my camera. While I could theoretically parse every single recipe for the other sensors, I don't feel comfortable releasing something I did not test.
+At the moment, I'm only going to provide Profiles for X-Trans IV sensors, as these are the only ones I can test on my camera. While I could theoretically parse every single recipe for the other sensors, I don't feel comfortable releasing something I did not test.
 
 ## Ok, how do I use these Profiles with Fuji X Raw Studio on Windows?
 ### Prerequisites
-1. Python 3.10 (I recommend typing `python` in the command prompt and installing it from the windows store, otherwise install from here https://www.python.org/downloads/)
+1. Python 3.10 (I recommend typing `python` in the command prompt and installing it from the Windows store, otherwise install from here https://www.python.org/downloads/)
 2. Fuji X Raw Studio (https://fujifilm-x.com/de-at/support/download/software/x-raw-studio/)
 
 ### Making the profiles work with your camera
