@@ -21,7 +21,7 @@ At the moment, I'm only going to provide Profiles for X-Trans IV sensors, as the
 ## Ok, how do I use these Profiles with Fuji X Raw Studio on Windows?
 ### Prerequisites
 1. Python 3.10 (I recommend typing `python` in the command prompt and installing it from the Windows store, otherwise install from here https://www.python.org/downloads/)
-2. Fuji X Raw Studio (https://fujifilm-x.com/de-at/support/download/software/x-raw-studio/)
+2. Fuji X Raw Studio (https://fujifilm-x.com/en-gb/support/download/software/x-raw-studio/)
 
 ### Making the profiles work with your camera
 1. You'll need to create a master profile with X Raw Studio to use as a template. This is needed because we have to copy your camera model, serial number and some other fixed values to the profiles in order to make them work. You have to do this for every different camera model you're using.
