@@ -1,6 +1,6 @@
 # Fuji X Weekly Simulation Profiles
 
-Here you'll find a collection of Film Simulation Recipes parsed from https://fujixweekly.com/
+Here you'll find a collection of Film Simulation Recipes parsed from https://fujixweekly.com/ and converted into profiles you can use in Fuji X Raw Studio.
 
 ## Motivation
 Having to input every recipe on my camera is no fun at all, so I rarely do it.
