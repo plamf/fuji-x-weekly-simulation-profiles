@@ -14,7 +14,7 @@ So I did what any Programmer would do: Instead of spending 5 hours to manually d
 Parsing text is awful. Parsing text that has been input by a human is torture.
 That's why I can't confirm that all the values of every recipe are 100% correct. If the author provided ranges for values (like `0 to +1/3`), I always take the first value. I did, however, test every single one of the recipes I'm releasing here with my own Camera and Fuji X Raw Studio.
 
-I'm not going to release the actual parser here, because I don't want people to DDoS Fuji X Weekly with hundreds of requests. I'm just going to provide the templates, which you'll have to convert with a parent-template of your own.
+I'm not going to release the actual parser here, because I don't want people to DDoS Fuji X Weekly with hundreds of requests. I'm just going to provide the templates, which you'll have to convert with a master-template of your own.
 
 At the moment, I'm only going to provide Profiles for X-Trans IV sensors, as these are the only ones I can test on my camera. While I could theoretically parse every single recipe for the other sensors, I don't feel comfortable releasing something I did not test.
 
