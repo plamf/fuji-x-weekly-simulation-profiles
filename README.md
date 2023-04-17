@@ -25,10 +25,14 @@ At the moment, I'm only going to provide Profiles for X-Trans IV sensors, as the
 
 ### Making the profiles work with your camera
 1. You'll need to create a master profile with X Raw Studio to use as a template. This is needed because we have to copy your camera model, serial number and some other fixed values to the profiles in order to make them work. You don't need to apply any special settings, since we will only use this profile as an empty husk for metadata. You have to do this for every different camera model you're using.
-2. Find the profile you just created. On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`
+2. Find the profile you just created. 
+2.1 On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`
+2.2 On Mac, try `~/Library/Application Support/com.fujifilm.denji/X_RAW_STUDIO`
 3. Copy the path of your master profile
 4. Download the profiles you need from the releases page (https://github.com/plamf/fuji-x-weekly-simulation-profiles/releases) or just clone the repo
-5. Open a command shell in the folder with your profiles of choice and run `python fx-templater.py "path/to/your/master/profile.FP1"`
+5. Open a command shell/terminal in the folder with your profiles of choice and run
+5.1 On Windows: `python fx-templater.py "path/to/your/master/profile.FP1"`
+5.2 On Mac: `python3 fx-templater.py "path/to/your/master/profile.FP1"`
 6. The converted profiles should appear in a subfolder called `converted`
 7. Copy the profiles into the same path where you got your master template from
 8. You can now delete the master template and start Fuji X Raw Studio. All the profiles should be there!
