@@ -3,20 +3,28 @@
 Here you'll find a collection of Film Simulation Recipes parsed from https://fujixweekly.com/ and converted into profiles you can use in Fuji X Raw Studio.
 
 ## Motivation
+<details>
+  <summary>Toggle</summary>
+
 Having to input every recipe on my camera is no fun at all, so I rarely do it.
 That's a shame though, because simulation recipes are the heart and soul of Fujifilm cameras.
 
 When I learned that you can input them in Fuji X Raw Studio and save them on your camera, I was thrilled. This made trying out different recipes on my own RAW files much easier. But still... I wanted to try them all, and quickly switch between profiles.
 
 So I did what any Programmer would do: Instead of spending 5 hours to manually do something, I spent 20 hours automating the process!
+</details>
 
 ## Disclaimer
+<details>
+  <summary>Toggle</summary>
+  
 Parsing text is awful. Parsing text that has been input by a human is torture.
 That's why I can't confirm that all the values of every recipe are 100% correct. If the author provided ranges for values (like `0 to +1/3`), I always take the first value. I did, however, test every single one of the recipes I'm releasing here with my own Camera and Fuji X Raw Studio.
 
 I'm not going to release the actual parser here, because I don't want people to DDoS Fuji X Weekly with hundreds of requests. I'm just going to provide the templates, which you'll have to convert with a master-template of your own.
 
 At the moment, I'm only going to provide Profiles for X-Trans IV sensors, as these are the only ones I can test on my camera. While I could theoretically parse every single recipe for the other sensors, I don't feel comfortable releasing something I did not test.
+</details>
 
 ## Ok, how do I use these Profiles with Fuji X Raw Studio?
 ### Prerequisites
