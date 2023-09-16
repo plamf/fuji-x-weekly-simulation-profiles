@@ -27,7 +27,7 @@
         <ColorChromeBlue>STRONG</ColorChromeBlue>
         <SmoothSkinEffect>OFF</SmoothSkinEffect>
         <WBShootCond>OFF</WBShootCond>
-        <WhiteBalance>Temperature</WhiteBalance>
+        <WhiteBalance>Auto_White</WhiteBalance>
         <WBShiftR>-3</WBShiftR>
         <WBShiftB>-1</WBShiftB>
         <WBColorTemp>0K</WBColorTemp>
